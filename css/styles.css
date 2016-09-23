@@ -19,3 +19,10 @@
   left: 0;
   background-color: gray;
 }
+
+.db-logo{
+  height: 45px;
+  width: 45px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
