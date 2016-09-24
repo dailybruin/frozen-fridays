@@ -12,15 +12,35 @@
   </div>
 
   <script id="handlebars-articles" type="text/x-handlebars-template">
-  <div class="articles">
-    <a href="index.html">click me to go back</a>
-    <h1>{{gsx$week.$t}}</h1>
-    <h1>{{gsx$date.$t}}</h1>
-    <h1>{{gsx$person.$t}}</h1>
-    <h1>{{gsx$headline.$t}}</h1>
-    <h1>{{gsx$author.$t}}</h1>
-    <h1>{{gsx$mainimageurl.$t}}</h1>
-    <h1>{{gsx$articlecontent.$t}}</h1>
+  <div class="articles container-fluid">
+    <div class="row">
+      <h1 class="article-person">{{gsx$person.$t}}</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 center-text">
+        <a href="index.html"><img src="img/back-button.svg"/></a>
+      </div>
+      <div class="col-sm-6 center-text">
+        <h3>{{gsx$date.$t}}</h3>
+      </div>
+      <div class="col-sm-3 center-text">
+        <a href="http://dailybruin.com/" target="_blank"><img class="db-logo" src="http://dailybruin.com/images/2015/09/Daily-Bruin-Logo.png" /></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="col-sm-6 col-sm-offset-3">
+          <h3>{{gsx$headline.$t}}</h1>
+          <p>by: {{gsx$author.$t}}</p>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="col-sm-6 col-sm-offset-3">
+          <img class="center-img" src="{{gsx$mainimageurl.$t}}" />
+          <p>{{gsx$articlecontent.$t}}</p>
+        </div>
+      </div>
+    </div>
   </div>
   </script>
 
