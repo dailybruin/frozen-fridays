@@ -43,6 +43,10 @@ body{
   margin-left: 20px;
 }
 
+.fade-in{
+  opacity: 0;
+}
+
 /*article styling*/
 
 .article-person{
