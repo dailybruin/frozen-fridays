@@ -1,5 +1,6 @@
 body{
     background-color: #6b92b9;;
+    overflow-x: hidden;
 }
 
 canvas {
@@ -17,6 +18,7 @@ canvas {
 .day-1-2-3 a{
   text-decoration: none;
   color: white;
+  transition: all 0.3s ease;
 }
 
 .day-1-2-3 a:hover{
@@ -73,6 +75,7 @@ canvas {
 .article-person{
   text-align: center;
   font-size: 84px;
+  color: white;
 }
 
 .center-text{
@@ -89,4 +92,25 @@ p {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 18px;
   line-height: 30px;
+}
+
+.article-content{
+  background-color: rgba(256, 256, 256, 0.92);
+  padding: 4%;
+}
+
+.headline{
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+
+.byline{
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+
+.date{
+  color: white;
 }
