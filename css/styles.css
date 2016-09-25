@@ -70,6 +70,11 @@ canvas {
   opacity: 0;
 }
 
+/* SVG styles */
+.week-1 svg:hover{
+  fill: black;
+}
+
 /*article styling*/
 
 .article-person{
@@ -88,7 +93,7 @@ canvas {
   width: 100%;
 }
 
-p {
+.article-content {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -117,4 +122,9 @@ p {
   color: black;
   background-color: rgba(256, 256, 256, 0.92);
   padding: 2%;
+}
+
+.article-footer{
+  color: gray;
+  font-size: 14px;
 }
