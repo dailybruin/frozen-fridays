@@ -17,8 +17,24 @@ function loadArticles(weekNumber){
 
     }
   });
+  $(document).ajaxComplete(function(){
+    $(".redirect").click(function(event){
+      event.preventDefault();
+      linkLocation = this.href;
+      $("body").fadeTo(500, 0, redirectPage);
+    });
+  });
+}
+function redirectPage() {
+    window.location = linkLocation;
 }
 
-
 $(document).ready(function() {
+  $("body").delay(300).fadeTo(600, 1);
+  $(".redirect").click(function(event){
+    event.preventDefault();
+    linkLocation = this.href;
+    console.log("switched is now " + switched)
+    $("body").fadeTo(500, 0, redirectPage);
+  });
 });

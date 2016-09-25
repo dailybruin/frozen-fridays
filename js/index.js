@@ -1,5 +1,5 @@
 function fadeIns(classes, speed){
-  var delays = 400
+  var delays = 1200;
   for (var i = 0; i < classes.length; i++){
     $(classes[i]).delay(delays).fadeTo(500, 1);
     delays += speed[i]
