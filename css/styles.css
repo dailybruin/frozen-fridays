@@ -106,11 +106,13 @@ canvas {
 }
 
 .headline{
+  font-family: 'Quattrocento Sans', sans-serif;
   font-size: 32px;
   text-align: center;
 }
 
 .byline{
+  font-family: 'Quattrocento Sans', sans-serif;
   font-size: 22px;
   text-align: center;
 }
