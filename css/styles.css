@@ -78,8 +78,9 @@ canvas {
 /*article styling*/
 
 .article-person{
+  font-family: 'Yesteryear', cursive;
   text-align: center;
-  font-size: 84px;
+  font-size: 120px;
   color: white;
 }
 
