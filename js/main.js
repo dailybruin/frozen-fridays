@@ -34,7 +34,6 @@ $(document).ready(function() {
   $(".redirect").click(function(event){
     event.preventDefault();
     linkLocation = this.href;
-    console.log("switched is now " + switched)
     $("body").fadeTo(500, 0, redirectPage);
   });
 });
