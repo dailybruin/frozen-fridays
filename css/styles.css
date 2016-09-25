@@ -12,6 +12,13 @@ body{
   width: 800px;
 }
 
+.series-description {
+  text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+  padding: 2%;
+}
+
 .day-1-2-3{
   margin-top: 4%;
 }
@@ -45,9 +52,17 @@ body{
 
 .center-text{
   text-align: center;
+  font-size: 20px;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .center-img{
   display: block;
   margin: auto;
+  padding: 2%;
+}
+
+.article-content {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
 }
