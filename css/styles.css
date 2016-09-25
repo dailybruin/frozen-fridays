@@ -1,5 +1,26 @@
 body{
-    background-color: lightblue;
+    background-color: #6b92b9;;
+}
+
+canvas {
+	position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+#main-page{
+  z-index: 1;
+  color: white;
+}
+
+.day-1-2-3 a{
+  text-decoration: none;
+  color: white;
+}
+
+.day-1-2-3 a:hover{
+  color: black;
 }
 
 .center-img{
@@ -60,10 +81,8 @@ body{
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.center-img{
-  display: block;
-  margin: auto;
-  padding: 2%;
+.article-img{
+  width: 100%;
 }
 
 p {
