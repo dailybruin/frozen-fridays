@@ -11,5 +11,4 @@ $(document).ready(function() {
   var speed = [400, 300, 200, 200, 200, 200, 200, 150];
   fadeIns(fade_classes, speed);
 
-
 });

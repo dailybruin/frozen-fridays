@@ -71,10 +71,8 @@ canvas {
   opacity: 0;
 }
 
-/* SVG styles */
-.week-1 svg:hover{
-  fill: black;
-}
+/* svg */
+
 
 /*article styling*/
 
