@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Frozen Fridays Week 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <!-- Bootstrap CDN -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!-- Our CSS -->
+  <link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+
+</head>
+<body>
+  <div id="frozen-fridays-week-2">
+  </div>
+
+  <script id="handlebars-articles" type="text/x-handlebars-template">
+  <div class="articles container-fluid">
+    <div class="row">
+      <h1 class="article-person">{{gsx$person.$t}}</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 center-text">
+        <a class="redirect" href="index.html"><img src="img/back-button.svg"/></a>
+      </div>
+      <div class="col-sm-6 center-text">
+        <h3 class="date">{{gsx$date.$t}}</h3>
+      </div>
+      <div class="col-sm-3 center-text">
+        <a href="http://dailybruin.com/" target="_blank"><img class="db-logo" src="http://dailybruin.com/images/2015/09/Daily-Bruin-Logo.png" /></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="col-sm-6 col-sm-offset-3 article-top">
+          <h3 class="headline">{{gsx$headline.$t}}</h3>
+          <p class="byline">By {{gsx$author.$t}}</p>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="col-sm-6 col-sm-offset-3">
+          <img class="center-img article-img" src="{{gsx$mainimageurl.$t}}" />
+          <div class="article-content">
+          {{{gsx$articlecontent.$t}}}
+          <hr />
+          <div class="article-footer">
+            <p>Website created and designed by <a href="https://github.com/H-Huang" target="_blank">Howard Huang</a>, <a href="https://github.com/paulinalei" target="_blank">Paulina Lei</a>, and <a href="mailto:manastasi@media.ucla.edu">Mary Anastasi</a>.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </script>
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- Handlebars CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+  <!-- Our JS -->
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <script>
+    loadArticles("2");
+  </script>
+</body>
+</html>
