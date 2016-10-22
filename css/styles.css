@@ -26,6 +26,16 @@ canvas {
   color: rgb(150, 240, 248);
 }
 
+.day-4-5 a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.day-4-5 a:hover{
+  color: rgb(150, 240, 248);
+}
+
 .center-img{
   display: block;
   margin: auto;
